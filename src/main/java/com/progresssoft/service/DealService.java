@@ -22,7 +22,7 @@ public class DealService {
             return dealRepository.save(deal);
         } catch (Exception e) {
             logger.error("Error saving deal with ID {}: {}", deal.getdealId(), e.getMessage(), e);
-            throw e; // Re-throw the exception to be handled by the controller
+            throw e;
         }
     }
 
@@ -31,7 +31,7 @@ public class DealService {
             return dealRepository.saveAll(deals);
         } catch (Exception e) {
             logger.error("Error saving deals: {}", e.getMessage(), e);
-            throw e; // Re-throw the exception to be handled by the controller
+            throw e;
         }
     }
 
