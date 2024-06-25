@@ -1,0 +1,6 @@
+com/progresssoft/controller/DealController.class
+com/progresssoft/model/Deal.class
+com/progresssoft/ClusteredDataWarehouseApplication.class
+com/progresssoft/repository/DealRepository.class
+com/progresssoft/service/DealService.class
+com/progresssoft/exception/GlobalExceptionHandler.class
